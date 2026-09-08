@@ -1,0 +1,32 @@
+/*default styling + background color*/
+body{
+    color: white;
+    background-color: #16181a;
+}
+
+/*large header title on the website with the red background, font, etc etc*/
+.pageTitle{
+    color: white;
+    font-size:xx-large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: red;
+    text-align:left;
+}
+
+/*smaller subheader, red colored, to be distinct from the body text*/
+.subHeader{
+    color: red;
+    font-weight: bold;
+    font-size: large;
+}
+
+/*format to allow the logo to be placed beside the title's text. had to look up how to do this one*/
+.logo{
+  display: inline-block;
+  vertical-align: top;
+}
+
+/*Color Pallet: */
+/*red: #FF0000, white: #000000, black: #FFFFFF, background-color: #16181a*/
+
