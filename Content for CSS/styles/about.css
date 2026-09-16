@@ -1,0 +1,68 @@
+/*default styling + background color*/
+body{
+    color: white;
+    background-color: #16181a;
+    font-size: 24px;
+    margin: 64px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*large header title on the website with the red background, font, etc etc*/
+.pageTitle{
+    color: white;
+    font-size:74px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align:center;
+    margin: 25px;
+}
+
+/*flex box for the title header container*/
+.titleContainer{
+    background-color: red;
+    justify-content: center;
+    display: flex;
+    gap: 24px;
+}
+
+.largeText{
+    font-size: 54px;
+}
+
+.navigator{
+    background-color: darkred;
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+
+    letter-spacing: 0.5px;
+}
+.navigator a:hover{
+    color: red;
+}
+.navigator a:visited{
+    color: white;
+}
+
+/*smaller subheader, red colored, to be distinct from the body text*/
+.subHeader{
+    color: red;
+    font-weight: bold;
+    font-size: 52px;
+}
+
+/*format to allow the logo to be placed beside the title's text. had to look up how to do this one*/
+.logo{
+  display: inline-block;
+  vertical-align: left;
+  align-content: center;
+}
+
+/*Color Pallet: */
+/*red: #FF0000, white: #000000, black: #FFFFFF, background-color: #16181a*/
+
